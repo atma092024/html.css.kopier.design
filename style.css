@@ -4,13 +4,36 @@
     box-sizing: border-box;
 }
 
-section {
-    border: solid 1px;
-    height: 500px;
-    width: 200px;
-}
-
-main {
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    background-color: hsl(0, 0%, 95%);
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
 }
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    font-family: "Lexend Deca";
+    src: url(https://fonts.google.com/specimen/Lexend+Deca);
+    width: 100%;
+    max-width: 900px;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+h2{
+    font-family: 'Big Shoulders Display';
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    margin-top: 30px;
+
+}
+
